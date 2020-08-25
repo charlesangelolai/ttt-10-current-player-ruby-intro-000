@@ -1,6 +1,6 @@
-def turn_count(board) {
+def turn_count(board){
   count = 0
-  board.each {
+  board.each{
     |turn|
     if turn == "X" || turn == "O"
       count += 1
